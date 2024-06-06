@@ -27,6 +27,7 @@ class _post1State extends State<post1> {
         print("Succsfully!!!!!!!!!!  --> "+email.toString());
       }else{
         print("errorrrrrrr");
+
       }
     }catch(ex){
       print(ex.toString());
